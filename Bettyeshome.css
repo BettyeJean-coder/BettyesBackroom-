@@ -1,0 +1,150 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    cursor: none;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    position: absolute;
+    font-weight: 200;
+    letter-spacing: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+p{
+    color: white;
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/*MOBILE STYLE CHANGES*/
+@media (max-width: 780px) {
+    p{
+      
+        top: 75%;
+        left: 50%;
+
+    }
+    
+}
+
+@media (max-width: 1080px) {
+    p{
+      
+        top: 75%;
+        left: 50%;
+
+    }
+    
+}
+
+
+/*MOBILE STYLE CHANGES*/
+
+/*H1 AND P TAGE FADE IN ANIMATION*/
+.fadeIn {
+    animation: fadeIn 7s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/*H1 AND P TAGE FADE IN ANIMATION*/
+
+/* SNOW EFFECT */
+
+canvas{
+    display: block;
+}
+
+/* SNOW EFFECT */
+
+/* TYPING EFFECT */
+
+.cursor::after {
+    content: "|";
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity:  1;
+  }
+    25%, 75% {
+        opacity: 0;
+    }
+}
+
+/* TYPING EFFECT */
+
+
+/* CUSTOM CURSOR */
+
+#custom-cursor {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+}
+
+/* CUSTOM CURSOR */
+
+/* CUSTOM CURSOR GLOW */
+
+#custom-cursor {
+    box-shadow: 0 0 6px rgb(255, 255, 255), 0 0 12px rgb(255, 255, 255), 0 0 18px rgb(255, 255, 255);
+}
+
+/* CUSTOM CURSOR GLOW */
+
+/* CUSTOM CURSOR PULSE ANIMATION */
+
+#custom-cursor {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.5);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
