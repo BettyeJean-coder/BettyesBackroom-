@@ -11,6 +11,7 @@ A minimalist terminal-style personal website built with HTML, CSS, and JavaScrip
 - HTML
 - CSS
 - JavaScript
+- Python (Django)
 
 ## Author
 Bettye Taylor
