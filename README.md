@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Bettye’s Backroom
 
 A minimalist terminal-style personal website built with HTML, CSS, and JavaScript.
