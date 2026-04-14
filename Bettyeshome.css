@@ -58,6 +58,7 @@ p{
 
 /*MOBILE STYLE CHANGES*/
 
+
 /*H1 AND P TAGE FADE IN ANIMATION*/
 .fadeIn {
     animation: fadeIn 7s;
@@ -84,6 +85,7 @@ canvas{
 }
 
 /* SNOW EFFECT */
+
 
 /* TYPING EFFECT */
 
@@ -119,6 +121,7 @@ canvas{
 
 /* CUSTOM CURSOR */
 
+
 /* CUSTOM CURSOR GLOW */
 
 #custom-cursor {
@@ -126,6 +129,7 @@ canvas{
 }
 
 /* CUSTOM CURSOR GLOW */
+
 
 /* CUSTOM CURSOR PULSE ANIMATION */
 
@@ -146,5 +150,6 @@ canvas{
         transform: translate(-50%, -50%) scale(1);
         opacity: 1;
     }
-}
+}     
 
+/* CUSTOM CURSOR PULSE ANIMATION */
