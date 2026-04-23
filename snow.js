@@ -35,7 +35,6 @@ update() {
 }
 // UPDATE SNOWFLAKE POSITION 
 
-
 // DRAWING THE SNOWFLAKES 
 draw() {
     ctx.beginPath();
@@ -71,5 +70,5 @@ window.addEventListener('resize', () => {
     canvas.height = window.innerHeight;
 }); 
 
-// ANIMATE SNOWFLAKES 
+// ANIMATE SNOWFLAKES    
 
